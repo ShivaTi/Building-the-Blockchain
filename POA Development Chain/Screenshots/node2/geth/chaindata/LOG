@@ -1,0 +1,24 @@
+=============== Mar 20, 2021 (AEDT) ===============
+08:00:21.364914 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:00:21.374718 db@open opening
+08:00:21.376319 version@stat F·[] S·0B[] Sc·[]
+08:00:21.379151 db@janitor F·2 G·0
+08:00:21.379151 db@open done T·4.433ms
+08:00:21.389828 db@close closing
+08:00:21.390337 db@close done T·509.6µs
+=============== Mar 20, 2021 (AEDT) ===============
+08:05:40.293330 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:05:40.294327 version@stat F·[] S·0B[] Sc·[]
+08:05:40.294327 db@open opening
+08:05:40.294327 journal@recovery F·1
+08:05:40.304894 journal@recovery recovering @1
+08:05:40.308690 memdb@flush created L0@2 N·15 S·1KiB "B\x83?..\x84\xc66,v3":"꼟..6\x80Z,v4"
+08:05:40.315336 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+08:05:40.326482 db@janitor F·3 G·0
+08:05:40.326482 db@open done T·32.1551ms
+08:05:40.391767 table@compaction range L-1 "a":"b"
+08:05:40.391767 table@compaction L0·1 -> L1·0 S·1KiB Q·21
+08:05:40.399749 table@build created L1@5 N·15 S·1KiB "B\x83?..\x84\xc66,v3":"꼟..6\x80Z,v4"
+08:05:40.399749 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+08:05:40.402740 table@compaction committed F~ S~ Ke·0 D·0 T·10.9733ms
+08:05:40.421498 table@compaction range L-1 "o":"p"
